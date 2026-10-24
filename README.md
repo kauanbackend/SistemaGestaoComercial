@@ -1,6 +1,6 @@
 # Sistema de Gestão Comercial
 
-Projeto desenvolvido utilizando **Microsoft SQL Server e T-SQL**, com o objetivo de aplicar conceitos de banco de dados relacionais em um cenário de gestão comercial.
+Projeto desenvolvido utilizando **Microsoft SQL Server e T-SQL**, com o objetivo de aplicar conceitos de bancos de dados relacionais em um cenário de gestão comercial.
 
 ## Objetivo
 
@@ -32,8 +32,30 @@ O banco de dados `SistemaGestaoComercial` possui cinco tabelas:
 - Funções de agregação: `SUM`, `COUNT`, `AVG`, `MIN` e `MAX`.
 - Agrupamentos com `GROUP BY` e `HAVING`.
 - Subconsultas com `IN`, `NOT IN`, `EXISTS` e `NOT EXISTS`.
-- Transações com `BEGIN TRANSACTION`, `COMMIT` e `ROLLBACK`.
+- Transações com `BEGIN TRANSACTION` e `ROLLBACK`.
 - Validação de regras de negócio por meio de scripts SQL.
+
+## Demonstração do Projeto
+
+### 1. Relatório geral por cliente
+
+![Relatório geral por cliente](assets/01-relatorio-clientes.png)
+
+### 2. Produtos mais vendidos
+
+![Produtos mais vendidos](assets/02-produtos-mais-vendidos.png)
+
+### 3. Desempenho de vendas por categoria
+
+![Desempenho de vendas por categoria](assets/03-vendas-por-categoria.png)
+
+### 4. Validação de estoque e transação
+
+![Validação de estoque e transação](assets/04-validacao-estoque-transacao.png)
+
+### 5. Resultado da transação e rollback
+
+![Resultado da transação e rollback](assets/05-resultado-transacao-rollback.png)
 
 ## Testes realizados
 
